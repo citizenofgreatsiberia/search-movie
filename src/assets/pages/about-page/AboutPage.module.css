@@ -1,0 +1,46 @@
+.wrapper {
+    padding: 40px;
+    width: 65vw;
+    margin: 0 auto;
+}
+
+.title {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.text {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.home {
+    color: var(--custom-orange-color);
+    transition: .3s;
+}
+
+.home:hover {
+    color: var(--custom-orange-color);
+    text-shadow: var(--custom-orange-color) 1px 0 10px;
+    transition: .3s;
+}
+
+.list {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.listItem {
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding: 40px;
+        width: 100vw;
+        margin: 0 auto;
+    }
+}

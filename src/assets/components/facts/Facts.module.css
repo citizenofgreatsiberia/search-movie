@@ -1,0 +1,54 @@
+.section {
+    padding: 16px;
+    width: 65vw;
+    min-width: 350px;
+}
+
+.wrapper {
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.fact {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+}
+
+.header {
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 10px 10px 0 0;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.second_title {
+    font-size: 26px;
+    margin: 0;
+}
+
+.main {
+    padding: 10px;
+}
+
+.more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* .more:hover {
+    background-color: var(--custom-orange-color);
+    color: #fff;
+    border-radius: 4px;
+    transition: .3s;
+} */

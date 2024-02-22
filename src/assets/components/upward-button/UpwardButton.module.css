@@ -1,0 +1,38 @@
+.button {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    cursor: pointer;
+    background-color: var(--custom-orange-color);
+    opacity: 0.5;
+    transition: opacity .3s;
+    z-index: 100;
+}
+
+.active {
+    display: block;
+}
+
+.arrow_part_left,
+.arrow_part_right {
+    width: 5px;
+    height: 23px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+    top: 10px;
+}
+
+.arrow_part_left {
+    transform: rotate(45deg);
+    left: 15px;
+}
+
+.arrow_part_right {
+    left: 28px;
+    transform: rotate(-45deg);
+}

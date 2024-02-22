@@ -1,0 +1,25 @@
+.wrapper {
+    padding: 10px 0;
+}
+
+.addButton,
+.deleteButton {
+    margin: 5px 0;
+    outline: none;
+    border-radius: 5px;
+    color: var(--custom-orange-color);
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid var(--custom-orange-color);
+    transition: .3s;
+    text-align: start;
+    cursor: pointer;
+}
+
+.addButton {
+    background-color: transparent;
+}
+
+.deleteButton {
+    background-color: #ffffff;
+}

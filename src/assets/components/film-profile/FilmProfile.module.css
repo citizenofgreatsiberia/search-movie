@@ -1,0 +1,117 @@
+.wrapper {
+    margin-top: 18px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutFilm {
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(to bottom, #9b9b9b 0%, #525252 40%, #202020 70%, #101010 100%);
+}
+
+.poster_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster_min_size {
+    min-height: 500px;
+    max-width: 300px;
+    margin: 8px;
+}
+
+.poster {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.rating {
+    color: var(--custom-orange-color);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 9;
+    font-size: 16px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.info {
+    padding: 4px;
+}
+
+.first_title {
+    text-shadow: #000 4px 0 15px;
+    font-size: 32px;
+    word-wrap: break-word;
+}
+
+.second_title {
+    text-shadow: #000 4px 0 15px;
+    font-size: 26px;
+}
+
+.description_wrapper {
+    padding-top: 10px;
+}
+
+.description {
+    padding-top: 10px;
+    color: #fff;
+    text-shadow: #000 4px 0 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.description_title {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: #000 4px 0 15px;
+}
+
+.text {
+    padding: 10px 0;
+    color: #fff;
+    text-shadow: #000 4px 0 15px;
+    font-size: 16px;
+}
+
+.span {
+    display: inline-block;
+    padding: 2px;
+    background-color: var(--custom-orange-color);
+    margin: 2px;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+.roles {
+    background-color: var(--page-bg-color);
+    padding: 16px;
+    width: 65vw;
+    min-width: 350px;
+}
+
+.actors {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutFilm {
+        flex-direction: column;
+    }
+}

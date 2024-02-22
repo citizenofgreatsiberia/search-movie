@@ -1,0 +1,26 @@
+.icon {
+    width: 32px;
+    padding: 4px;
+    border-radius: 6px 0 0 6px;
+    transition: background-color .3s;
+    object-fit: contain;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--link-color);
+    border-radius: 6px;
+    transition: background-color .3s;
+    padding-right: 8px;
+}
+
+.text {
+    margin-left: 4px;
+}
+
+a:hover .wrapper {
+    background-color: rgba(65, 65, 65, 0.15);
+    transition: background-color .3s;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.third_title {
+    /* font-size: 22px; */
+    /* padding: 20px; */
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.fourth_title {
+    padding-bottom: 4px;
+    font-size: 18px;
+    color: var(--custom-orange-color)
+}
+
+.fourth_title:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.span {
+    color: #fff;
+}
+
+.films_list_wrapper {
+    width: 65vw;
+    min-width: 350px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.button {
+    cursor: pointer;
+}

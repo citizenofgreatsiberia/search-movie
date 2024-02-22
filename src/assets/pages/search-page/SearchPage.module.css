@@ -1,0 +1,22 @@
+.wrapper {
+    padding-top: 40px;
+}
+
+.notice_wrapper {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstTitle {
+    color: var(--custom-orange-color);
+    font-size: 32px;
+    text-align: center;
+}
+
+.secondTitle {
+    font-size: 24px;
+    text-align: center;
+}

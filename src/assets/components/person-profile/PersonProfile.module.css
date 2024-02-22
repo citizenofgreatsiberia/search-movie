@@ -1,0 +1,60 @@
+.wrapper {
+    margin-top: 18px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutPerson {
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(to bottom, #9b9b9b 0%, #525252 40%, #202020 70%, #101010 100%);
+
+}
+
+.photo_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.photo {
+    width: 300px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.info {
+    padding: 4px;
+}
+
+.first_title {
+    text-shadow: #000 4px 0 15px;
+    font-size: 32px;
+}
+
+.second_title {
+    text-shadow: #000 4px 0 15px;
+    font-size: 26px;
+}
+
+.text {
+    padding: 10px 0;
+    color: #fff;
+    text-shadow: #000 4px 0 15px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutPerson {
+        flex-direction: column;
+    }
+}

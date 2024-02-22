@@ -1,0 +1,15 @@
+.nothing {
+    font-size: 36px;
+    color: var(--custom-orange-color);
+    text-align: center;
+    padding: 40px;
+}
+
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 372px);
+}

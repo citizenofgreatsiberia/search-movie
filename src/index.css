@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --page-bg-color: #101010;
+  --black-glass-color: rgba(15, 15, 15, 0.8);
+  --glass-blur: blur(10px);
+  --custom-orange-color: #ff9100;
+  --link-color: #757575;
+  --active-link-color: #fff;
+  --page-font-family: 'Roboto', sans-serif;
+  --title-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scrollbar-color: var(--custom-orange-color) #000;
+  scrollbar-width: thin;
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--custom-orange-color);
+  border-radius: 5px;
+}
+
+body {
+  background-color: var(--page-bg-color);
+  font-family: var(--page-font-family);
+  user-select: none;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  margin-top: 119px;
+  min-height: calc(100vh - 372px);
+}
+
+a {
+  color: var(--link-color)
+}
+
+a.active {
+  color: var(--active-link-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+}
+
+::selection {
+  background: var(--custom-orange-color);
+}
+
+::-moz-selection {
+  background: var(--custom-orange-color);
+}

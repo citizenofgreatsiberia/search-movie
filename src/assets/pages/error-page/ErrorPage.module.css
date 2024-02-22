@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstTitle {
+    color: var(--custom-orange-color);
+    font-size: 96px;
+    text-align: center;
+}
+
+.secondTitle {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.redirect {
+    text-align: center;
+}

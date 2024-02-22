@@ -1,0 +1,33 @@
+.span {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.button {
+    color: #000;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 32px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.button:disabled {
+    background-color: #252525;
+    color: #000;
+    cursor: auto;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

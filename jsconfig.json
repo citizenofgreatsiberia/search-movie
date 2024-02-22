@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "es2020",
+        "paths": {
+            "@": [
+                "./src/*"
+            ],
+            "@pages/*": [
+                "./src/assets/pages/*"
+            ],
+            "@components/*": [
+                "./src/assets/components/*"
+            ],
+            "@utils/*": [
+                "./src/utils/*"
+            ],
+            "@images/*": [
+                "./src/assets/images/*"
+            ],
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
