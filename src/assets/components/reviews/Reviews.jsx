@@ -9,7 +9,7 @@ const Reviews = ({ reviews }) => {
                 {
                     reviews.map((rev) => {
                         return (
-                            <Review rev={rev} />
+                            <Review key={rev.date} rev={rev} />
                         )
                     })
                 }

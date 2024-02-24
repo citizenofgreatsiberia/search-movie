@@ -18,18 +18,19 @@ export async function loader({ params }) {
     const aboutFacts = await fetchData(`https://kinopoiskapiunofficial.tech/api/v2.2/films/${filmId}/facts`)
     const aboutReviews = await fetchData(`https://kinopoiskapiunofficial.tech/api/v2.2/films/${filmId}/reviews?page=1&order=DATE_DESC`)
     const aboutSimilar = await fetchData(`https://kinopoiskapiunofficial.tech/api/v2.2/films/${filmId}/similars`)
+    const streamings = await fetchData(`https://kinopoiskapiunofficial.tech/api/v2.2/films/${filmId}/external_sources?page=1`)
 
-    return { aboutFilm, aboutStuff, aboutFacts, aboutReviews, aboutSimilar }
+    return { aboutFilm, aboutStuff, aboutFacts, aboutReviews, aboutSimilar, streamings }
 }
 
 const FilmPage = () => {
-    const { aboutFilm, aboutStuff, aboutFacts, aboutReviews, aboutSimilar } = useLoaderData()
+    const { aboutFilm, aboutStuff, aboutFacts, aboutReviews, aboutSimilar, streamings } = useLoaderData()
 
     scrollToTop()
 
     return (
         <div className={styles.wrapper}>
-            <FilmProfile aboutFilm={aboutFilm} aboutStuff={aboutStuff} />
+            <FilmProfile aboutFilm={aboutFilm} aboutStuff={aboutStuff} streamings={streamings} />
             <Facts aboutFacts={aboutFacts} />
             <Similar similar={aboutSimilar} />
             <Reviews reviews={aboutReviews?.items} />

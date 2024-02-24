@@ -2,7 +2,7 @@ import AddToFavorites from '@components/add-to-favorites/AddToFavorites.jsx'
 import LinkButton from '@components/link-button/LinkButton.jsx'
 import styles from './FilmProfile.module.css'
 
-const FilmProfile = ({ aboutFilm, aboutStuff }) => {
+const FilmProfile = ({ aboutFilm, aboutStuff, streamings }) => {
 
     return (
         <section className={styles.wrapper}>
@@ -66,6 +66,19 @@ const FilmProfile = ({ aboutFilm, aboutStuff }) => {
                     </div>
                     :
                     null}
+            </div>
+            <div className={styles.online}>
+                {streamings.total > 0
+                    ?
+                    <div>
+                        <p className={styles.text}>Смотреть онлайн: </p>
+                        {streamings.items.map((item, index) => {
+                            return <a key={index} href={item.url} className={styles.platform} >{item.platform}</a>
+                        })}
+                    </div>
+                    :
+                    null
+                }
             </div>
 
         </section>

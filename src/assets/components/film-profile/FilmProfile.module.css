@@ -97,11 +97,23 @@
     text-shadow: none;
 }
 
-.roles {
+.roles,
+.online {
     background-color: var(--page-bg-color);
     padding: 16px;
     width: 65vw;
     min-width: 350px;
+}
+
+.platform {
+    display: inline-block;
+    padding: 2px;
+    background-color: var(--custom-orange-color);
+    margin: 2px;
+    border-radius: 5px;
+    text-shadow: none;
+    cursor: pointer;
+    color: #fff;
 }
 
 .actors {

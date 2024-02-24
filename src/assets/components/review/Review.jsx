@@ -7,7 +7,7 @@ const Review = ({ rev }) => {
 
     const text = rev.description.replace(/(\<(\/?[^>]+)>)|&#\d{3,4}?;|&laquo;|&raquo;/g, '')
     return (
-        <div key={rev.date} className={styles.review}>
+        <div className={styles.review}>
             <div className={styles.header}>
                 <p className={styles.author}>{rev.author}:</p>
                 {
