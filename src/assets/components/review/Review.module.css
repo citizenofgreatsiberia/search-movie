@@ -32,6 +32,15 @@
 
 .main {
     padding: 10px;
-    max-height: 400px;
-    overflow-y: scroll;
+}
+
+.grow_button {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 16px;
 }
