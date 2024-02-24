@@ -25,8 +25,8 @@ const PersonFacts = ({ aboutPerson }) => {
                     <div className={styles.main}>
                         <p className={styles.fact}>
                             {facts[factIndex].replace(/(\<(\/?[^>]+)>)|&#\d{3,4}?;|&laquo;|&raquo;/g, '')} <br />
-                            {total > 1 ? <span onClick={changeFact} className={styles.more}>Еще факты...</span> : null}
                         </p>
+                        {total > 1 ? <button onClick={changeFact} className={styles.more}>Еще факты...</button> : null}
                     </div>
                 </div>
             </section >
