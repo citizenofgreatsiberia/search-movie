@@ -35,14 +35,11 @@
     }
 }
 
-
-
 .link {
     font-weight: 400;
     color: var(--link-color);
     text-decoration: none;
     font-size: 18px;
-    /* margin-left: 30px; */
     padding: 4px;
     cursor: pointer;
     transition: color .5s;
@@ -56,6 +53,6 @@
 
 @media screen and (max-width: 475px) {
     .link {
-        font-size: .8rem;
+        font-size: .9rem;
     }
 }

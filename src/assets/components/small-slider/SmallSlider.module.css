@@ -41,3 +41,10 @@
 .navigation:disabled {
     display: none;
 }
+
+@media screen and (max-width: 499px) {
+    .title {
+        text-align: center;
+        margin: 0;
+    }
+}

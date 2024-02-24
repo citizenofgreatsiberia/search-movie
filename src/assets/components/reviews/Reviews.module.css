@@ -5,44 +5,8 @@
     min-width: 350px;
 }
 
-.review {
-    width: 100%;
-    border-radius: 10px;
-    background-color: #1a1a1a;
-    margin-bottom: 20px;
-}
-
-.text {
-    font-size: 18px;
-    color: #fff;
-    text-align: justify;
-}
-
-.author {
-    font-weight: bold;
-    font-size: 22px;
-    color: var(--custom-orange-color);
-}
-
-.header {
-    background-color: #1f1f1f;
-    padding: 10px;
-    border-radius: 10px 10px 0 0;
-}
-
-.main {
-    padding: 10px;
-}
-
 .first_title {
     font-size: 32px;
     margin-bottom: 40px;
-    overflow: hidden;
-}
-
-.second_title {
-    font-size: 26px;
-    margin: 0;
-    color: var(--custom-orange-color);
     overflow: hidden;
 }

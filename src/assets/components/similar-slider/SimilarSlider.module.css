@@ -10,8 +10,6 @@
 .title {
     color: #fff;
     font-size: 32px;
-    /* padding: 0 20px 20px 40px; */
-    /* width: 85vw; */
     padding: 10px 20px 40px;
     width: 65vw;
     min-width: 350px;
@@ -39,7 +37,6 @@
 
 .navigationPrev {
     left: 1%;
-
 }
 
 .navigationNext {
