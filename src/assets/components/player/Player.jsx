@@ -6,7 +6,6 @@ const Player = ({ filmId }) => {
     useEffect(() => {
         const kinoboksParams = document.createElement('script')
         kinoboksParams.innerText = `{kbox('.kinobox_player', { search: { kinopoisk: ${filmId} } })}`
-        kinoboksParams.async = true
         document.body.appendChild(kinoboksParams)
         return () => {
             document.body.removeChild(kinoboksParams)
@@ -15,7 +14,7 @@ const Player = ({ filmId }) => {
 
     return (
         <section className={styles.wrapper}>
-            <div class="kinobox_player" ></div>
+            <div class="kinobox_player"></div>
         </section>
     )
 }
