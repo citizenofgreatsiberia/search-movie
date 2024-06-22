@@ -1,7 +1,7 @@
 # Search_movie
 Одностраничное реакт-приложение на тематику кинематографии.
 ___
-Проект на gh-pages https://citizenofgreatsiberia.github.io/search-movie/
+[Проект](https://citizenofgreatsiberia.github.io/search-movie/) на gh-pages 
 ___
 ## Текущий функционал приложения:
 * Просмотр списка фильмов по предложенным категориям (премьеры, топ, семейные, популярные)
