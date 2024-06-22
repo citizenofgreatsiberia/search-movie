@@ -17,8 +17,8 @@ ___
 * Поддержака устройств с разными разрешениями экранов
 ___
 ## При разработке были использованы:
-* [React] (https://react.dev/)
-* [react-router-dom] (https://reactrouter.com/en/main)
-* [Kinopoisk API Unofficial] (https://kinopoiskapiunofficial.tech/)
-* [Swiper] (https://swiperjs.com/)
-* [Vite] (https://vitejs.dev/)
+* [React](https://react.dev/)
+* [react-router-dom](https://reactrouter.com/en/main)
+* [Kinopoisk API Unofficial](https://kinopoiskapiunofficial.tech/)
+* [Swiper](https://swiperjs.com/)
+* [Vite](https://vitejs.dev/)
